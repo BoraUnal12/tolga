@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bora Unal | Program Training</title>
+    <meta name="keywords" content="Python.java.javaScript"/>
+    <meta name="description" content="Bora Unal | Programlama Egitimi">
+
+    
+      
+<style>
+   /* Main .css */
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+html{
+    font-family: "Open Sans",sans-serif;
+} 
+/* Navbar Section */
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+}
+#navbar ul li a{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 4px;
+}
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+/* Training */
+#training{
+    color: #fff;
+padding: 1rem;
+}
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#training .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#training .items .item:hover{
+    color: red;
+    opacity: 0.6;
+}
+/* Courses */
+#courses {
+    color: #333;
+    padding: 1rem;
+}
+.courses{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.courses .course{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.courses .course .course-image{
+    margin-right: 0.5rem;
+    position: relative;
+} 
+.courses .course .course-image img{
+    border-radius: 5px;
+} 
+.corses .course .course-mage span{
+    background: red;
+    padding: 0.25rem;
+    color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.courses .course .course-info .title{
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+/* Contact */
+#contact{
+    color: #fff;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+align-self: center;
+}
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+#contact .contact-form ul li a:hover{
+opacity: 0.8;
+}
+
+
+
+/* Global.css */
+.text-center {
+text-align: center;
+}
+
+.heading-small {
+    font-size: 1.25rem;
+}
+.heading-medium {
+    font-size: 1.5rem;
+}
+.heading-big {
+    font-size: 1.75rem;
+}
+/* colors */
+
+.bg-dark-blue{
+    background: #062e51;
+}
+.bg-light-blue {
+    background: #336ea2;
+}
+
+/* Buttoms */
+.btn {
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 7px;
+    letter-spacing: 0.5px;
+}
+.btn-primary {
+    background: #336ea2;
+}
+.btn-primary:hover{
+    color: #336ea2;
+    background: #fff;
+    border: 0.5px solid #336ea2;
+}
+.btn-dark {
+    background: #333;
+}
+.btn-dark:hover{
+    color: #333;
+    background: #fff;
+    border: 0.5px solid #333;
+}
+.btn-block{
+    width: 100%;
+    text-align: center;
+}
+/* Forms */
+.form-group{
+    padding: 0.25rem 0;
+}
+/* Container */
+.form-group label {
+display: block;
+}
+.form-control{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+
+
+}
+.container{
+  max-width: 1100px;
+  margin: 0 auto;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+</head>
+<body>
+    <header class="bg-dark-blue">
+
+        <div class="container">
+            <nav id="navbar" >
+                <a href="#courses21"><h1 class="heading-small">Bora Unal Sali</h1>
+                             
+                <ul>
+                    <li><a href="#home">Home page</a></li>
+                    <li><a href="#trining">Trainings</a></li>
+                    <li><a href="#courses">Going to Courses</a></li>
+                    <li><a href="#contact">Communication</a></li>
+    
+                </ul>
+            </nav>
+        </div>
+      
+    </header>
+    <section id="home">
+<img src="/PikPng.com_wolf-png_596262.png" alt="Bora Unal Sali">
+<div class="name text-center">
+    <h2 class="heading-big">Bora Unal Sali</h2>
+    <a name="courses21"></a>
+    <p>Computer Engeneer | Founder of Yazilim Bilimi</p>
+</div>
+<a href="#courses" class="btn btn-primary ">Go to courses</a>
+
+    </section>
+    
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Trainings</h3>
+        <div class="items">
+
+           
+            <article class="item">
+                <i class="fa fa-pencil-alt "></i>
+            <h3>In-Class Trainings</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, perferendis.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt "></i>
+            <h3>online content</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, perferendis.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt "></i>
+            <h3>conferences</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, perferendis.</p>
+            </article>
+        </div>
+    </section>
+     <section id="courses">
+<h3 class=" text-center heading-medium"> Courses</h3>
+
+       <div class="container">
+           <div class="courses">
+               <!-- Course 1 -->
+              
+              <div class="courses">
+               
+                   <div class="course-image">
+                       <img src="/python2.jpg" alt="Python"/>
+                       <span>90% discount</span>
+                   </div>
+                   </div>
+                     <div class="course-info">
+                         <div class="title">
+                            
+                         </div>
+                         <div class="title">
+                            (40+ Hours) Python | Zero to Advanced Programming (2020)
+                         </div>
+                         <div class="description">
+                            (40+ Hours) Python | Zero to Advanced Programming (2020)
+                         </div>
+                         <div class="instruction">
+                            Bora Unal Sali,Software science
+                         </div>
+                         <div class="rating">
+                            4.6|(19990 voting)
+                         </div>
+                        </div>
+                        
+                         <!-- Kurs 2 -->
+                         <div class="course">
+                            <div class="course-image">
+                                <img src="/java.jpg" alt="Python">
+                                <span>90% discount</span>
+                            </div>
+                            
+                              <div class="course-info">
+                                  <div class="title">
+                                     
+                                  </div>
+                                  <div class="title">
+                                    (40 + Hours) Java | Zero to Advanced Programming (2020)
+                                  </div>
+                                  <div class="description">
+                                    (40 + Hours) Java | Zero to Advanced Programming (2020)
+                                  </div>
+                                  <div class="instruction">
+                                     Bora Unal Sali,Yazilim Bilimi
+                                  </div>
+                                  <div class="rating">
+                                     4.6|(19990 Oylama)
+                                  </div>
+                                    </div>
+                                  <!-- Kurs 3 -->
+                                  <div class="course">
+                                    <div class="course-image">
+                                        <img src="/javascript.jpg" alt="Python">
+                                        <span>90% discount</span>
+                                    </div>
+                                    
+                                      <div class="course-info">
+                                          <div class="title">
+                                             
+                                          </div>
+                                          <div class="title">
+                                            (40 + Hours) JavaScript | Zero to Advanced Programming (2020)
+                                          </div>
+                                          <div class="description">
+                                            (40 + Hours) JavaScript | Zero to Advanced Programming (2020)
+                                          </div>
+                                          <div class="instruction">
+                                             Bora Unal Sali,Yazilim Bilimi
+                                          </div>
+                                          <div class="rating">
+                                             4.6|(19990 Oylama)
+                                          </div>
+                                            </div>
+
+                          
+                          
+                     
+                   </div>
+               </div>
+           </div>
+       </div>
+
+     </section>
+
+     <footer id="contact" class="bg-dark-blue">
+      <div class="contact-form">
+          <form >
+              <h4 class="text-center heading-medium">Bana Ulasin</h4>
+              <div class="form-group">
+
+                  <label for="name"> Name </label>
+                  <input  type="text"  class="form-control" name ="name" id="name"   placeholder="Name..">  
+                 
+              </div>            
+               
+                <div class="form-group">
+                    <label for="email"> Gmail </label>
+                    <input 
+                    type="text" 
+                    class="form-control" 
+                    name ="email" 
+                    id="email" 
+                    placeholder="Gmail..">
+                   
+                </div>         
+                <div class="form-group">
+                    <label for="message"> message </label>
+                   <textarea name="mesagge" id="mesagge"  class="form-control" rows="5"
+                   placeholder="Your Message..."></textarea>
+                
+                </div>     
+                
+                <button type="submit" class="btn btn-block">Send</button>
+
+          </form>
+          <ul>
+              <li><a href="https://www.facebook.com/profile.php?id=100005480597459" target="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="http://127.0.0.1:5500/twitter.html" target="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="https://tr.wikipedia.org/wiki/Instagram" target="#"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+      </div>
+
+     </footer>
+</body>
+</html>
